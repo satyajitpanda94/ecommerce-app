@@ -1,0 +1,31 @@
+.product-container{
+    display: grid;
+    width:400px;
+    height:450px;
+    place-items: center;
+}
+ img{
+    width:350px;
+    height:350px;
+}
+
+.name{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.addtocart{
+    background-color: rgb(12, 1, 54);
+    color: white;
+    padding: 6px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none
+}
+
+.addtocart:hover{
+    background-color: rgb(109, 68, 247);
+}
